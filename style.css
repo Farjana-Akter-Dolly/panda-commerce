@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-bottom: 120px;
+}
+
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+    height: 65vh;
+}
+.game-img{
+    height: 60vh;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-btn{
+    background-image: linear-gradient(to bottom,#ff589b 0%,#ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.cat-1,.cat-2,.cat-3{
+    padding: 10px 30px;
+    height: 15vh;
+}
+.cat-1{
+    background-color: orange;
+}
+.cat-2{
+    background-color: orchid;
+}
+.cat-3{
+    background-color: blue;
+}
+.img{
+    width: 30%;
+    height: 90px;
+}
+.card-footer{
+    background-color: white;
+    border-top:none ;
+    border-radius: 10px;
+}
+.shoe-img{
+    height: 20vh;
+    width: 50%;
+}
+.bag-img{
+    height: 30vh;
+    width: 40%;
+    margin: 0 auto;
+}
+.submit h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
