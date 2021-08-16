@@ -12,8 +12,9 @@
     border-radius: 10px;
     height: 65vh;
 }
-.game-img{
-    height: 60vh;
+.bannar-img{
+    height: 45vh;
+    width: 200px;
 }
 .carousel-item{
     padding: 20px 40px;
