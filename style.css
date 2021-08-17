@@ -111,6 +111,13 @@ footer{
     .img{
         width: 27%;
     }
+    .bag-img,.shoe-img{
+        width:45% ;
+        margin-bottom: 8px;
+    }
+    .card{
+        height: 75vh;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -134,8 +141,12 @@ footer{
     .img{
         width:25%;
     }
+    .bag-img,.shoe-img{
+        width:45% ;
+        margin-bottom: 8px;
+    }
     .card{
-        height: 65vh;
+        height: 75vh;
     }
 }
 
