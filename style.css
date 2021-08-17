@@ -12,9 +12,11 @@
     border-radius: 10px;
     height: 65vh;
 }
+
 .bannar-img{
     height: 45vh;
     width: 200px;
+    overflow: hidden;
 }
 .carousel-item{
     padding: 20px 40px;
@@ -67,3 +69,134 @@
 footer{
     text-align: center;
 }
+
+
+     /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .buy-now-btn{
+        padding-top:10px;
+        margin-bottom: 15px;
+    }
+    .orange-bg{
+        background-color: #fceae8;
+        border-radius: 10px;
+        height: 92vh;
+        padding-top:34px;
+    }
+
+    .catagori{
+        margin-bottom: 20px;
+    }
+    .img{
+        width: 20%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .buy-now-btn{
+        padding-top:10px;
+        margin-bottom: 15px;
+    }
+    .orange-bg{
+        background-color: #fceae8;
+        border-radius: 10px;
+        height: 92vh;
+        padding-top:34px;
+    }
+
+    .catagori{
+        margin-bottom: 20px;
+    }  
+    .img{
+        width: 27%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .buy-now-btn{
+        padding-top:10px;
+        margin-bottom: 15px;
+    }
+    .orange-bg{
+        background-color: #fceae8;
+        border-radius: 10px;
+        height: 67vh;
+        padding-top:34px;
+    }
+
+    .catagori{
+        margin-bottom: 20px;
+        width: 100%;
+    }  
+
+    .img{
+        width:25%;
+    }
+    .card{
+        height: 65vh;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .buy-now-btn{
+        padding-top:10px;
+        margin-bottom: 10px;
+    }
+    .orange-bg{
+        background-color: #fceae8;
+        border-radius: 10px;
+        height: 67vh;
+        padding-top:34px;
+    }
+
+    .catagori{
+        margin-bottom: 20px;
+        width: 100%;
+    }  
+
+    .img{
+        width:25%;
+    }
+    .bag-img,.shoe-img{
+        width:45% ;
+        margin-bottom: 8px;
+    }
+    .card{
+        height: 75vh;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .buy-now-btn{
+        padding-top:10px;
+        margin-bottom: 10px;
+    }
+    .orange-bg{
+        background-color: #fceae8;
+        border-radius: 10px;
+        height: 67vh;
+        padding-top:34px;
+    }
+
+    .catagori{
+        margin-bottom: 20px;
+        width: 100%;
+    }  
+
+    .img{
+        width:25%;
+    }
+    .bag-img,.shoe-img{
+        width:45% ;
+        margin-bottom: 8px;
+    }
+    .card{
+        height: 75vh;
+    }
+}
+
+    
